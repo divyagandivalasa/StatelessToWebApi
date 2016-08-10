@@ -1,4 +1,5 @@
 ﻿/// <autosync enabled="true" />
+/// <reference path="js/ApplicationScripts/app.js" />
 /// <reference path="js/applicationscripts/customercontroller.js" />
 /// <reference path="js/site.js" />
 /// <reference path="lib/angular/angular.js" />
