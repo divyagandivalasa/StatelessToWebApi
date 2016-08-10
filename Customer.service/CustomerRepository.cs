@@ -17,7 +17,8 @@ namespace Customer.service
 
         public async Task<Customer> GetId(string custId)
         {
-            return model.Customers.FirstOrDefault(x => x.CustomerID == custId);
+            var data = model.Customers.FirstOrDefault(x => x.CustomerID == custId);
+            return data;
         }
     }
 }
